@@ -1,0 +1,91 @@
+/* WeekTable.css */
+.WeekTable {
+    width: 100%;
+}
+
+.header-days-names {
+    padding: 8px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Nunito';
+}
+
+
+.theader {
+    background-color: #f2f2f2;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.names-user-list {
+    padding: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Nunito';
+}
+
+.names-user-list-cargo {
+    padding: 8px;
+    font-size: 8px;
+    color: #9b9b9b;
+    font-weight: bold;
+    font-family: 'Nunito';
+}
+
+.bg-lineas-diagonales {
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    background: repeating-linear-gradient(45deg, #ffffff 5px, #ffffff 10px, #acacac40 5px, #acacac40 20px);
+    /* Ajusta el valor según sea necesario */
+}
+
+
+
+.selected-shift-info {
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container-visible-shifts {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #dcdcdcdc;
+}
+
+.title-text-info {
+    font-size: 15px;
+    color: #6587f4;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.text-muted-info {
+    display: flex;
+    font-size: 10px;
+    color: #9b9b9b;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-shifts-list .selected-shift-info {
+    top: 30px;
+    left: 0;
+    display: block;
+    cursor: pointer;
+}
+
+.title-vista-semanal {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cursor-pointer-cards {
+    cursor: pointer;
+
+}

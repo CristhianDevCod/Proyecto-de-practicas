@@ -1,0 +1,61 @@
+.motivational-quote-wrapper {
+    width: 400px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background-color: #e5e6e8;
+}
+
+.motivational-quote {
+    font-size: 14px;
+    white-space: nowrap;
+    display: inline-block;
+    animation: mover 10s linear infinite;
+}
+
+.text-move {
+    color: black;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+.greeting {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    animation: greetingMove 10s linear infinite;
+}
+
+@keyframes greetingMove {
+    from {
+        right: -50px;
+        /* Mueve el saludo fuera del elemento */
+    }
+
+    to {
+        right: 100%;
+        /* Mueve el saludo completamente a la derecha */
+    }
+}
+
+
+@keyframes mover {
+    from {
+        transform: translateX(100%);
+        /* Mueve el texto 100% hacia la derecha */
+    }
+
+    to {
+        transform: translateX(-100%);
+        /* Mueve el texto 100% hacia la izquierda */
+    }
+}
+
+/* Ocultar el elemento en pantallas pequeñas (menos de 600px de ancho) */
+@media (max-width: 900px) {
+    .motivational-quote-wrapper {
+        display: none;
+    }
+}

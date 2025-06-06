@@ -1,0 +1,78 @@
+###OBTENER FACTOR BLOOD
+GET http://10.12.78.75:4000/API/get/Blood_Factor/ HTTP/1.1
+
+###GROUP BLOOD
+GET http://10.12.78.75:4000/API/get/Blood_Group/ HTTP/1.1
+
+
+###ETNIA
+GET http://10.12.78.75:4000/API/get/Ethnic_Group/ HTTP/1.1
+
+###GENDER
+GET http://10.12.78.75:4000/API/get/Gender/ HTTP/1.1
+
+###LANGUAJE
+GET http://10.12.78.75:4000/API/get/Language/ HTTP/1.1
+
+###LEVEL LANGUAJE
+GET http://10.12.78.75:4000/API/get/Language_Level/ HTTP/1.1
+
+###MARITAL STATUS
+GET http://10.12.78.75:4000/API/get/Marital_Status/ HTTP/1.1
+
+###SEMESTER STUDY
+GET http://10.12.78.75:4000/API/get/Semester_Study/ HTTP/1.1
+
+###STATUS STAUDY
+GET http://10.12.78.75:4000/API/get/Status_Study/ HTTP/1.1
+
+###TYPE DOCUMENT
+GET http://10.12.78.75:4000/API/get/Type_Document/ HTTP/1.1
+
+###COMPLEMENTARY STUDAY
+GET http://10.12.78.75:4000/API/get/Complementary_Study/ HTTP/1.1
+
+###POSTGRADUATE STUDY
+GET http://10.12.78.75:4000/API/get/Postgraduate_Study/ HTTP/1.1
+
+###UNDERGRADUATE STAUDY
+GET http://10.12.78.75:4000/API/get/Undergraduate_Study/ HTTP/1.1
+
+###TYPE VEHICLE
+GET http://10.12.78.75:4000/API/get/Type_Vehicle/ HTTP/1.1
+
+###VEHICLE
+GET http://10.12.78.75:4000/API/get/Vehicle/ HTTP/1.1
+
+###COUNTRY
+GET http://10.12.78.75:4000/API/get/Country/ HTTP/1.1
+
+###COUNTRY STATE 
+GET http://10.12.78.75:4000/API/get/Country_State/ HTTP/1.1
+
+###TYPE ID
+GET http://10.12.78.75:4000/API/get/Type_Id/ HTTP/1.1
+
+###Pc_Home
+GET http://10.12.78.75:4000/API/get/Pc_Home/ HTTP/1.1 
+
+###Internet
+GET http://10.12.78.75:4000/API/get/Internet/ HTTP/1.1 
+
+###Internet_Speed
+GET http://10.12.78.75:4000/API/get/Internet_Speed/ HTTP/1.1 
+
+###SO
+GET http://10.12.78.75:4000/API/get/SO/ HTTP/1.1 
+
+###RAM
+GET http://10.12.78.75:4000/API/get/RAM/ HTTP/1.1 
+
+###CHANGE-ADVISER
+GET http://10.12.78.75:4000/API/GET/SHIFT/CHANGE-ADVISER/:Fecha/:Documento
+Content-Type: : application/json
+
+{
+    "Fecha": "2023-07-04",
+    "Documento": "1002087575"
+}

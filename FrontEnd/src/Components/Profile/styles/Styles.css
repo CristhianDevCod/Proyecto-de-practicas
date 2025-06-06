@@ -1,0 +1,1050 @@
+.styles-inputs-tel {
+  /* Ocultar las flechas en navegadores webkit */
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Ocultar las flechas en navegadores webkit */
+.styles-inputs-tel::-webkit-inner-spin-button,
+.styles-inputs-tel::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+
+
+
+.responsive-avatar {
+  width: 5rem;
+  height: 5rem;
+}
+
+.Title-name {
+  font-size: 15px;
+  font-family: 'Nunito';
+  color: #fff;
+}
+
+.background-overlay-content {
+  background-color: #ffffff;
+  -webkit-box-shadow: 10px 15px 19px 7px #ffffff;
+  -moz-box-shadow: 10px 15px 19px 7px #ffffff;
+  box-shadow: 10px 15px 19px 7px #ffffff;
+}
+
+.fullname-text {
+  font-size: 10px;
+  font-weight: bolder;
+  color: #242424;
+  font-family: 'Nunito', sans-serif;
+}
+
+.cargo-text {
+  font-size: 8px;
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
+  color: rgb(124, 124, 126);
+}
+
+.center-cargo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Subtitle-name {
+  font-size: 14px;
+  color: #c0c0c0;
+}
+
+.card-container-profile {
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10%;
+  background-color: #eeeff2;
+}
+
+.name-profile {
+  color: #1e1c25;
+  margin: 1;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.name-profile-role {
+  margin: 1;
+  font-size: 12px;
+  color: #5f758c;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.user-profile-avatar {
+  height: 100%;
+  align-self: center;
+  justify-content: center;
+}
+
+.name-user {
+  width: 100%;
+}
+
+
+.responsive-avatart {
+  size: 24px, 32px, 40px, 64px, 80px, 100px;
+}
+
+.modal-profile {
+  cursor: pointer;
+}
+
+/* Styles PersonalInfo */
+.content-name-full-name {
+  display: flex;
+  margin-top: 2%;
+}
+
+.content-full-name {
+  width: 100%;
+}
+
+.title-full-name {
+  font-size: 10px;
+  color: #9b9b9b;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.full-name {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* styles date info */
+.date-info {
+  display: flex;
+}
+
+.title-date-info {
+  margin-top: 2%;
+  color: #747373;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.content-date-info {
+  width: 100%;
+}
+
+.inputs-info {
+  width: 80%;
+}
+
+/* content-contact */
+.content-contact {
+  display: flex;
+}
+
+.Telefono_Fijo_Secundario {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.Telefono_Fijo_Principal {
+  width: 100%;
+}
+
+.Telefono_Celular_Principal {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.Telefono_Celular_Secundario {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.container-Correo {
+  width: 100%;
+}
+
+
+
+.inputs-contacts {
+  width: 80%;
+}
+
+#content-contact-emergencia {
+  width: 100%;
+}
+
+#content-contact-telefono {
+  width: 100%;
+  margin-left: 2%;
+}
+
+#content-number-vehicles {
+  width: 100%;
+}
+
+#content-computador {
+  width: 100%;
+}
+
+
+
+/* title-residencial-info */
+.title-residencial-info {
+  margin-top: 1%;
+  color: #747373;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.residencial-content {
+  display: flex;
+}
+
+.content-residencial-data {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.content-residencial-data-departamento {
+  width: 100%;
+}
+
+.conatiner-idioma {
+  width: 100%;
+}
+
+.inputs-residencial {
+  width: 80%;
+}
+
+/* content genero */
+.content-sex {
+  width: 100%;
+}
+
+.content-Estado-civil {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.correo-personal {
+  color: #747373;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.text-correo-personal {
+  margin-top: 1%;
+  color: #747373;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#content-number-person {
+  width: 100%;
+}
+
+#content-number-person-data {
+  width: 100%;
+  display: flex;
+}
+
+#number-person-content {
+  width: 100%;
+}
+
+#number-content-number-boys {
+  width: 100%;
+}
+
+#number-content-number-persons {
+  width: 100%;
+}
+
+#content-internet {
+  width: 100%;
+}
+
+#content-vel-internet {
+  width: 100%;
+}
+
+#content-internet-vel {
+  display: flex;
+  width: 100%;
+}
+
+.inputs-number-vehicles {
+  width: 100%;
+}
+
+.number-vehicles {
+  width: 100%;
+  display: flex;
+}
+
+.content-number-vehicles1 {
+  width: 100%;
+}
+
+.container-AcademicInfo {
+  width: 100%;
+  display: flex;
+}
+
+.more-other {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.container-title-input {
+  width: 100%;
+}
+
+.container-title-input1 {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.container-title-input2 {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.container-title-input3 {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.content-Group-Blood {
+  width: 100%;
+}
+
+.content-Group-Blood2 {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.content-nivel-idioma {
+  width: 100%;
+  margin-left: 2%;
+}
+
+
+.container-pais {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.continer-departamento {
+  width: 100%;
+  margin-left: 2%;
+}
+
+.container-ciudad {
+  width: 100%;
+  margin-left: 2%;
+}
+
+
+
+
+/*STYLE HI*/
+.text {
+  position: absolute;
+  letter-spacing: 2px;
+}
+
+
+
+
+
+
+/*STYLES UPDATE DATES*/
+#container-update-dates {
+  display: flex;
+  margin-top: 2%;
+}
+
+#stepper-desing {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 2%;
+  margin-right: 2%;
+  align-self: center;
+  border-radius: 10px;
+}
+
+#style-stepp-desing {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.container-stepper-render {
+  width: 75%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+#container-data-info {
+  width: 100%;
+}
+
+#style-center-stepper {
+  display: flex;
+}
+
+#backgroud-color-desing {
+  width: 30%;
+  max-height: 100%;
+  background: #F0F2F0;
+  background: -webkit-linear-gradient(to left, #000c4086, #f0f2f0a2);
+  background: linear-gradient(to left, #000c407c, #f0f2f0a9);
+}
+
+
+#backGround-img-desing {
+  width: 250px;
+  height: 500px;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+  background-image: url('../../../../public/assets/Logotipo.png');
+
+}
+
+#backGround-img-desing {
+  filter: brightness(0) saturate(100%) invert(100%) opacity(0.4);
+}
+
+
+
+
+
+#container-all-for-academic {
+  width: 100%;
+  justify-content: center;
+}
+
+#container-all-for-academic-desing {
+  width: 50%;
+  justify-content: center;
+}
+
+#content-client-and-program {
+  width: 100%;
+  display: flex;
+}
+
+#content-client-desing {
+  width: 100%;
+}
+
+#content-area-desing {
+  width: 100%;
+}
+
+
+#container-service-sede {
+  width: 100%;
+  display: flex;
+  margin-top: 2%;
+}
+
+#title-client {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+#title-area {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#container-service {
+  width: 100%;
+}
+
+#container-sede {
+  width: 100%;
+}
+
+#continer-Fondo_Pensiones {
+  width: 100%;
+}
+
+#container-Fondo_Cesantias {
+  width: 100%;
+}
+
+
+#title-service {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#title-sede {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#title-jefeInmediato {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#title-correo-corporativo {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#title-cubrimiento_Ruta {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-sociodemografica {
+  margin-top: 2%;
+  color: #303030;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-Entidad_Salud {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-Fondo_Pensiones {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-Fondo_Cesantias {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-ARL {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-Caja_Compensacion_Familiar {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-Dias_Vacaciones {
+  color: #747373;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#container-jefe-and-correo {
+  width: 100%;
+  display: flex;
+  margin-top: 2%;
+}
+
+#container-jefe {
+  width: 100%;
+}
+
+
+#container-correo {
+  width: 100%;
+}
+
+#container-animated-desing {
+  width: 100%;
+}
+
+#container-Sociodemográfica {
+  display: flex;
+  width: 100%;
+}
+
+#container-Entidad_Salud {
+  display: flex;
+  width: 100%;
+}
+
+#container-entidad-salud {
+  width: 100%;
+}
+
+#container-arl {
+  width: 100%;
+}
+
+#container-Caja_Compensacion_Familiar {
+  display: flex;
+  width: 100%;
+}
+
+#container-caja_compensacion_familiar {
+  width: 100%;
+}
+
+#container-Dias_Vacaciones {
+  width: 100%;
+}
+
+
+
+
+
+/*particles*/
+#area {
+  background: #6469c7;
+  background: -webkit-linear-gradient(to left, #a6aafa, #656acc);
+  width: 100%;
+}
+
+#circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#circles #li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+#circles #li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+#circles #li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+#circles #li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+#circles #li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+#circles #li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+#circles #li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+#circles #li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+#circles #li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+#circles #li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+#circles #li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-250px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+
+}
+
+.cbx {
+  position: relative;
+  top: 1px;
+  width: 27px;
+  height: 27px;
+  border: 1px solid #c8ccd4;
+  border-radius: 3px;
+  transition: background 0.1s ease;
+  cursor: pointer;
+  display: block;
+}
+
+.cbx:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  width: 7px;
+  height: 14px;
+  opacity: 0;
+  transform: rotate(45deg) scale(0);
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transition: all 0.3s ease;
+  transition-delay: 0.15s;
+}
+
+.lbl {
+  margin-left: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#cbx:checked~.cbx {
+  border-color: transparent;
+  background: #6871f1;
+  animation: jelly 0.6s ease;
+}
+
+#cbx:checked~.cbx:after {
+  opacity: 1;
+  transform: rotate(45deg) scale(1);
+}
+
+.cntr {
+  position: relative;
+}
+
+@keyframes jelly {
+  from {
+    transform: scale(1, 1);
+  }
+
+  30% {
+    transform: scale(1.25, 0.75);
+  }
+
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+
+  50% {
+    transform: scale(1.15, 0.85);
+  }
+
+  65% {
+    transform: scale(0.95, 1.05);
+  }
+
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+.hidden-xs-up {
+  display: none !important;
+}
+
+#invalid-feedback {
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*TERMINOS Y CONDICIONES*/
+
+#title-terms-conditions {
+  width: 100%;
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+#container-term-and-conditions {
+  width: 100%;
+  height: 350px;
+}
+
+#conatiner-checkbox-wrapper-19 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#accept-term-and-conditions {
+  width: 100%;
+  margin-left: 1%;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+#style-button-save {
+  margin-top: 2%;
+}
+
+.container-term-and-conditions {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.text-muted-labels {
+  color: #a6a6a6;
+  font-size: 12px;
+}
+
+.checkbox-wrapper-19 {
+  width: 100%;
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+  box-sizing: border-box;
+  --background-color: #fff;
+  --checkbox-height: 25px;
+}
+
+@-moz-keyframes dothabottomcheck-19 {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: calc(var(--checkbox-height) / 2);
+  }
+}
+
+@-webkit-keyframes dothabottomcheck-19 {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: calc(var(--checkbox-height) / 2);
+  }
+}
+
+@keyframes dothabottomcheck-19 {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: calc(var(--checkbox-height) / 2);
+  }
+}
+
+@keyframes dothatopcheck-19 {
+  0% {
+    height: 0;
+  }
+
+  50% {
+    height: 0;
+  }
+
+  100% {
+    height: calc(var(--checkbox-height) * 1.2);
+  }
+}
+
+@-webkit-keyframes dothatopcheck-19 {
+  0% {
+    height: 0;
+  }
+
+  50% {
+    height: 0;
+  }
+
+  100% {
+    height: calc(var(--checkbox-height) * 1.2);
+  }
+}
+
+@-moz-keyframes dothatopcheck-19 {
+  0% {
+    height: 0;
+  }
+
+  50% {
+    height: 0;
+  }
+
+  100% {
+    height: calc(var(--checkbox-height) * 1.2);
+  }
+}
+
+.checkbox-wrapper-19 .input-check-box[type=checkbox] {
+  display: none;
+}
+
+.checkbox-wrapper-19 .check-box {
+  height: var(--checkbox-height);
+  width: var(--checkbox-height);
+  background-color: transparent;
+  border: calc(var(--checkbox-height) * .1) solid #000;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-transition: border-color ease 0.2s;
+  -o-transition: border-color ease 0.2s;
+  -webkit-transition: border-color ease 0.2s;
+  transition: border-color ease 0.2s;
+  cursor: pointer;
+}
+
+.checkbox-wrapper-19 .check-box::before,
+.checkbox-wrapper-19 .check-box::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  height: 0;
+  width: calc(var(--checkbox-height) * .2);
+  background-color: #34b93d;
+  display: inline-block;
+  -moz-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -o-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  border-radius: 5px;
+  content: " ";
+  -webkit-transition: opacity ease 0.5;
+  -moz-transition: opacity ease 0.5;
+  transition: opacity ease 0.5;
+}
+
+.checkbox-wrapper-19 .check-box::before {
+  top: calc(var(--checkbox-height) * .72);
+  left: calc(var(--checkbox-height) * .41);
+  box-shadow: 0 0 0 calc(var(--checkbox-height) * .05) var(--background-color);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.checkbox-wrapper-19 .check-box::after {
+  top: calc(var(--checkbox-height) * .37);
+  left: calc(var(--checkbox-height) * .05);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.checkbox-wrapper-19 .input-check-box[type=checkbox]:checked+.check-box,
+.checkbox-wrapper-19 .check-box.checked {
+  border-color: #34b93d;
+}
+
+.checkbox-wrapper-19 .input-check-box[type=checkbox]:checked+.check-box::after,
+.checkbox-wrapper-19 .check-box.checked::after {
+  height: calc(var(--checkbox-height) / 2);
+  -moz-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+  -o-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+  -webkit-animation: dothabottomcheck-19 0.2s ease 0s forwards;
+  animation: dothabottomcheck-19 0.2s ease 0s forwards;
+}
+
+.checkbox-wrapper-19 .input-check-box[type=checkbox]:checked+.check-box::before,
+.checkbox-wrapper-19 .check-box.checked::before {
+  height: calc(var(--checkbox-height) * 1.2);
+  -moz-animation: dothatopcheck-19 0.4s ease 0s forwards;
+  -o-animation: dothatopcheck-19 0.4s ease 0s forwards;
+  -webkit-animation: dothatopcheck-19 0.4s ease 0s forwards;
+  animation: dothatopcheck-19 0.4s ease 0s forwards;
+}

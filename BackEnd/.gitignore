@@ -1,0 +1,9 @@
+# variable de entoros
+.env
+
+/dist
+
+# dependencies
+/node_modules
+
+npm-debug.log*

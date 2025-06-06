@@ -1,0 +1,260 @@
+.icon-color-notification {
+  display: flex;
+  color: #435573;
+  margin-right: 5%;
+  justify-content: center;
+}
+
+.icon-color-notification-messages {
+  color: #435573;
+  margin-right: 5%;
+}
+
+.title-Notification {
+  width: 100%;
+  display: flex;
+  margin-left: 5%;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Nunito';
+  /* border: 1px solid; */
+}
+
+.subtitle-Notification {
+  width: 100%;
+  display: flex;
+  margin-left: 5%;
+}
+
+.subtitle-Notification:hover {
+  cursor: pointer;
+  color: #4671ff;
+}
+
+.content-card-notifications {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  border-bottom: 0.5px solid #f4f4f4;
+  box-shadow: 3px 3px 5px 2px rgb(234, 233, 240);
+}
+
+
+.scroll-width-notifications {
+  width: 100%;
+  height: 90%;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.title-notifications {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-fixed {
+  height: 40px;
+  width: 100%;
+
+}
+
+.container-message-design {
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.container-user-text {
+  display: flex;
+  font-size: 14px;
+  color: #555555;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.container-user-text-users {
+  margin-left: 2%;
+  font-size: 12px;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.container-message-text {
+  width: 100%;
+  color: #727a7e;
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.novedad-notiifcation {
+  width: 30%;
+  display: 3flex;
+}
+
+.message-novedad-notiifcation {
+  width: 100%;
+  color: #4671ff;
+  font-size: 13px;
+  margin-left: 2%;
+  font-weight: bold;
+}
+
+
+.mensaje-notifications {
+  color: grey;
+  font-size: 12px;
+}
+
+.usuario-recibe-notifications {
+  color: grey;
+  font-size: 12px;
+}
+
+.fecha-notifications {
+  color: grey;
+  font-size: 12px;
+}
+
+.container-buttons-cancel-ok {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-cancel {
+  margin-left: 2%;
+  background-color: whitesmoke;
+}
+
+.button-ok {
+  color: whitesmoke;
+  background-color: #6587f4;
+}
+
+.button-view-details::before {
+  content: "Ver";
+  color: #4671ff;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+
+.badge-notifications-message {
+  margin-left: 2%;
+}
+
+/*styles card*/
+.title-new-message {
+  font-size: 10px;
+  color: #6587f4;
+  font-weight: bold;
+  font-family: 'Nunito';
+}
+
+.title-date-hours {
+  font-weight: bold;
+  font-size: 10px;
+  color: #c0c0c0;
+  font-family: 'Nunito';
+}
+
+.text-muted {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Nunito';
+}
+
+.text-message {
+  font-size: 12px;
+  color: rgb(80, 80, 80);
+  font-weight: 400;
+}
+
+.message-seen {
+  color: gray;
+}
+
+.container-solid-dashed {
+  border-bottom: 0.5px solid #c0c0c0;
+}
+
+
+.details-change-users {
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  border-top: 1rem solid #7fd4b0;
+}
+
+.content-data-details {
+  display: flex;
+  align-content: center;
+  box-shadow: 3px 3px 5px 2px rgb(234, 233, 240);
+}
+
+.content-data-details-all {
+  align-items: center;
+}
+
+.content-data-details-info {
+  width: 100%;
+  font-size: 10px;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-bottom: 0.5px solid #dcdcdc;
+}
+
+.text-muted {
+  color: #2c2c2c;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.icons-user-send {
+  width: 30px;
+  height: 30px;
+}
+
+
+.content-data-nov {
+  padding: 4px;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.content-data-info {
+  width: 100%;
+  font-size: 10px;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border-bottom: 0.5px solid #dcdcdc;
+}
+
+
+#name-shifts {
+  color: #9099a5;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.content-data {
+  width: 100%;
+}

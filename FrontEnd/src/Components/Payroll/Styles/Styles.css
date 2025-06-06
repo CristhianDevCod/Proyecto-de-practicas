@@ -1,0 +1,122 @@
+.metas-sp {
+    color: #61708a;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+}
+
+.metas-sp-lenght {
+    color: #435573;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-lenght-sizeData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-metas {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-payroll {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.header-name-style {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+.container-horas-nomina {
+    width: 100%;
+    border: 1px solid #dcdcdc;
+}
+
+.container-title-horas-nomina {
+    width: 100%;
+    color: #000000;
+    text-align: center;
+}
+
+.title-horas-nomina {
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 1%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container-horas-nomina-style {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+
+.container-icon-horas-nomina-success {
+    border-radius: 100px;
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #218c12;
+}
+
+.color-icon {
+    color: #ffffff;
+}
+
+.container-text-horas-nomina {
+    margin-left: 2%;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.container-icon-horas-nomina-reject {
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: red;
+}
+
+
+.container-table-nomina {
+    width: 100%;
+    height: 60vh;
+}
+
+/* MyPayrollCharts.css */
+
+.bar-chart-container .MuiBar-root {
+    position: relative;
+}
+
+.color-icon-pending {
+    color: #efb710b9;
+}
+
+.color-icon-accepts {
+    color: #00721e87;
+}
+
+.color-icon-rejects {
+    color: #c316168d;
+}

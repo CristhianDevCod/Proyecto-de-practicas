@@ -1,0 +1,482 @@
+.modal-feelings-content {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  border-radius: 5px;
+  background: #c33764;
+  background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+  background: linear-gradient(to right, #1d2671, #c33764);
+}
+
+.modal-feelings-content-margin {
+  width: 100%;
+  height: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.modal-feelings {
+  width: 90%;
+  height: 80%;
+  border: none;
+}
+
+.header-feelings {
+  width: 100%;
+  height: 50px;
+}
+
+.title-feelings {
+  display: flex;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.container-animated-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-interrogatios {
+  z-index: 1;
+  display: flex;
+  font-size: 100px;
+  color: rgba(245, 245, 245, 0.62);
+  position: absolute;
+  justify-content: center;
+  animation: interrogate 2s infinite;
+}
+
+@keyframes interrogate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.content-question {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.color-content-question {
+  color: #ffffff;
+}
+
+.container-content-modal {
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-feelings {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.content-text-feelings {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.text-feelings-Alegría {
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  border-radius: 5px;
+  background: #ffe000;
+  background-color: #f7b42c;
+  background-image: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+}
+
+.text-feelings-Alegría::before {
+  content: "Alegría";
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+
+.color-alegria {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.text-feelings-Enojo {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 2%;
+  border-radius: 5px;
+  background: #333333;
+  background-color: #feae96;
+  background-image: linear-gradient(315deg, #feae96 0%, #fe0944 74%);
+}
+
+.text-feelings-Enojo::before {
+  content: "Enojo";
+  color: #ffffff;
+
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+
+.color-enojo {
+  color: #ffffff;
+}
+
+.text-feelings-Frustración {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 2%;
+  border-radius: 5px;
+  background: #8e2de2;
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+}
+
+.text-feelings-Frustración::before {
+  content: "Frustración";
+  color: #ffffff;
+
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+
+.color-frustracion {
+  color: #ffffff;
+}
+
+.text-feelings-Tristeza {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 2%;
+  border-radius: 5px;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.text-feelings-Tristeza::before {
+  content: "Tristeza";
+  color: #ffffff;
+
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+
+.color-tristeza {
+  color: #ffffff;
+}
+
+.text-feelings-Motivación {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 2%;
+  border-radius: 5px;
+  background: #4e54c8;
+  background: linear-gradient(to left, #8f94fb, #4e54c8);
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+}
+
+.text-feelings-Motivación::before {
+  content: "Motivación";
+  font-weight: bold;
+  color: #ffffff;
+
+  text-align: center;
+  align-self: center;
+}
+
+.color-motivacion {
+  color: #ffffff;
+}
+
+.text-feelings-Gratitud {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 2%;
+  border-radius: 5px;
+  background-color: #fc5296;
+  background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%);
+}
+
+.text-feelings-Gratitud::before {
+  content: "Gratitud";
+  color: #ffffff;
+
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+}
+
+.color-gratitud {
+  color: #ffffff;
+}
+
+.text-feelings-Tranquilidad {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-left: 2%;
+  border-radius: 5px;
+  background: #1d976c;
+  background: -webkit-linear-gradient(to right, #93f9b9, #1d976c);
+  background: linear-gradient(to right, #93f9b9, #1d976c);
+}
+
+.text-feelings-Tranquilidad::before {
+  content: "Tranquilidad";
+  font-weight: bold;
+  color: #ffffff;
+
+  text-align: center;
+  align-self: center;
+}
+
+.color-tranquilidad {
+  color: #ffffff;
+}
+
+.container-input-button {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.container-input-label {
+  width: 100%;
+}
+
+.container-button-send {
+  width: 10%;
+  margin-left: 2%;
+}
+
+.planet-animated {
+  --black-hole-color-2: #caccd1;
+  --black-hole-color: #f3f4f7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0.5em;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-30deg);
+}
+
+.blackhole {
+  width: 50px;
+  height: 50px;
+  padding: 7em;
+  color: var(--black-hole-color);
+  background-color: black;
+  animation: wiggle 3s alternate-reverse infinite linear;
+}
+
+.blackhole,
+.blackhole::after,
+.blackhole::before,
+.blackhole .ring,
+.blackhole .ring::after {
+  content: "";
+  border-radius: 50%;
+  border: 2px solid var(--black-hole-color);
+  box-shadow: 0 0 3em, 0 0 1em;
+}
+
+.blackhole::after,
+.blackhole::before {
+  animation: writhe 3s alternate-reverse infinite linear;
+}
+
+.blackhole::before {
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: calc(100% + 0.5em);
+  top: -9px;
+  left: -7px;
+}
+
+.blackhole::after {
+  position: absolute;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  top: -6px;
+  left: -5px;
+}
+
+.blackhole .ring,
+.blackhole .ring::after {
+  content: "";
+  position: absolute;
+  left: -50%;
+  width: 200%;
+  border-top: none;
+  height: 2em;
+  box-shadow: 0px 5px 10px var(--black-hole-color);
+}
+
+.blackhole .ring,
+.blackhole .ring::after {
+  animation: ring-writhe 3s alternate-reverse infinite linear;
+}
+
+.blackhole .ring::after {
+  width: 110%;
+  left: -8%;
+}
+
+.blackhole .rocket {
+  fill: rgba(235, 235, 235, 0.652);
+  height: 30px;
+  transform: rotate(-140deg);
+  animation: idle 1s alternate-reverse infinite linear;
+}
+
+.blackhole .rocket-path {
+  top: -60px;
+  right: -60px;
+}
+
+.planet-animated:hover .rocket-path,
+.planet-animated:focus .rocket-path {
+  z-index: 100;
+  animation: engine-start 0.2s alternate-reverse infinite linear;
+}
+
+.planet-animated:focus .rocket-path {
+  animation: descend 1.2s linear forwards,
+    descend-dissapear 0.1s linear forwards;
+  animation-delay: 0s, 1s;
+}
+
+@keyframes idle {
+  from {
+    transform: rotate(-130deg);
+  }
+
+  to {
+    transform: rotate(-140deg);
+  }
+}
+
+@keyframes alert {
+  from {
+    box-shadow: 0 0 0 var(--black-hole-color);
+  }
+
+  to {
+    box-shadow: 0 0 8px var(--black-hole-color);
+  }
+}
+
+@keyframes engine-start {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes descend {
+  from {
+    top: -60px;
+    right: -60px;
+    transform: scale(1);
+  }
+
+  to {
+    top: -10px;
+    right: -10px;
+    transform: scale(0.8);
+  }
+}
+
+@keyframes descend-dissapear {
+  from {
+    top: -10px;
+    right: -10px;
+    transform: scale(1);
+  }
+
+  to {
+    top: 20px;
+    right: 20px;
+    transform: scale(0);
+  }
+}
+
+@keyframes writhe {
+  from {
+    box-shadow: -4px -3px 35px var(--black-hole-color-2), -4px -3px 5px;
+    transform: translateX(-1px) scale(1);
+  }
+
+  to {
+    box-shadow: 4px 3px 35px, 4px 3px 5px var(--black-hole-color-2);
+    transform: translateX(1px) scale(0.95);
+  }
+}
+
+@keyframes wiggle {
+  from {
+    transform: translateX(-3px);
+  }
+
+  to {
+    transform: translateX(3px);
+  }
+}
+
+@keyframes ring-writhe {
+  from {
+    transform: translateX(-2px) scale(1);
+    box-shadow: -2px 5px 10px var(--black-hole-color);
+  }
+
+  to {
+    box-shadow: 2px 5px 10px var(--black-hole-color-2);
+    transform: translateX(2px) scale(0.95);
+  }
+}
+
+.appBar {
+  box-shadow: none;
+  background-color: #ffffff;
+  z-index: none !important;
+}
+
+.drawer-Bar {
+  z-index: none !important;
+}

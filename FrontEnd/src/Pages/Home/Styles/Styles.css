@@ -1,0 +1,213 @@
+.sub-title {
+  font-size: 10px;
+  color: #8a8a8a;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+}
+
+.accordion-style {
+  box-shadow: none;
+  margin-top: none;
+  border-right: 0px;
+  border-width: none;
+}
+
+.container-scroll-tabs {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.container-antares {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-profiler-user {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+.SettingsRoundedIcon-style {
+  width: 20%;
+  display: flex;
+  color: #787f8a;
+  align-self: center;
+  justify-content: center;
+}
+
+.AccordionSummary-style {
+  width: 20%;
+  height: 30px;
+  display: flex;
+  color: #787f8a;
+  align-self: center;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.AccordionSummary-style-modules {
+  width: 20%;
+  height: 30px;
+  display: flex;
+  color: #787f8a;
+  align-self: center;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.selectModuleIcon {
+  color: #8aa8ff;
+}
+
+.selectModule {
+  color: #8aa8ff;
+  border-radius: 10px;
+  background-color: #f2f6ff;
+}
+
+.container-wfm {
+  width: 100%;
+  display: flex;
+  align-self: center;
+}
+
+.title-modulos {
+  display: flex;
+  color: #545556;
+  font-size: 12px;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: bolder;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-submodules {
+  color: #000000;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
+}
+
+.title-submodulesBefore {
+  color: #6b7579;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.card-container {
+  width: 100%;
+  display: flex;
+}
+
+.card-icon {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Title-Tabs {
+  width: 100%;
+  font-size: 10px;
+  margin-left: 2%;
+  color: #c0c0c0;
+  text-align: start;
+  text-transform: capitalize;
+}
+
+.Title {
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+
+.justify {
+  justify-content: flex-end;
+}
+
+/*-----------------------------styles icons---------------------------- */
+.container-icons {
+  width: 100%;
+  display: flex;
+  margin-left: 10;
+  justify-content: flex-end;
+}
+
+.icons {
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.container-icons-notifications {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container-color-icon {
+  border-radius: 100px;
+}
+
+.no-overflow .particle-canvas {
+  overflow: visible !important;
+}
+
+.logo-antares {
+  width: 70%;
+}
+
+.appBar {
+  background-color: #ffffff;
+  z-index: 999 !important;
+}
+
+.drawer-Bar {
+  z-index: 1 !important;
+}
+
+.drawer-header {
+  background-color: #ffffff;
+}
+
+.scroll-container-home {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5d87ff;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5d87ff;
+}
